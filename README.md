@@ -1,1 +1,5 @@
 # Sprint 7 project
+Projects name is projects
+Project description: Making API tests with the HTML requests GET, POST, PUT, and DELETE. Using an enpoint from the Urban Grocers documentation, we ran a test on the response status code and the expected data contained in the response body. 
+Technologies used: Urban Grocers documentation was used to choose an endpoint for the tests. Postman was used to run the url and endpoint to check the response status code and response body. Visual Studio Code was used put the code in place and use terminal to run the tests.
+Instructions: Open Visual Studio Code. Open the projects, then open hm07-qa-us. Click on config.js and replace the API URL with a newly generated server url and hit save. Click on one of the 4 tests available and then run a new terminal. Run the test in the hm07-qa-us folder by typing npx jest tests/getHandlers.test.js and click enter to run the test. Click on the other tests and change the getHandlers part to match the test of POST, PUT, and DELETE. 
